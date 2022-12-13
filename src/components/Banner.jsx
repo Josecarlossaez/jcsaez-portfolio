@@ -1,5 +1,4 @@
-import React from 'react'
-import { useState, useEffect } from "react";
+
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/logo_completo2.png";
 import * as Icon from 'react-bootstrap-icons';
