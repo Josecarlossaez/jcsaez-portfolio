@@ -354,13 +354,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 0 0;
   position: relative;
-  height: calc(100vh);
+  height: calc(100vh auto);
   width: calc(100vw)
   
 }
 #skills{
   background: #151515;
-  height: calc(75vh)
+  height: calc(75vh auto)
 }
 .skill-bx {
   background: #151515;
@@ -422,6 +422,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-content: center;
   flex-wrap: wrap;
   font-family: "Orbitron";
+  font-size: 80%;
 
 }
 #data-image{
@@ -463,6 +464,15 @@ width:60%
    transform: scale(1.1);
    opacity: 0.8;
 
+} 
+@media screen and (max-width:1500px) {
+  .project-image-data{
+    flex-direction: column;
+  }
+  .project-image-data p{
+    width: 100%;
+  }
+  
 }
 
 
