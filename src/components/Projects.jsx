@@ -1,5 +1,5 @@
 import React from 'react'
-import esChallenge from "../assets/img/esChallenge.png";
+import esChallenge from "../assets/img/tourney ss.png";
 import ironFashion from "../assets/img/ironFashion.png";
 import spaceFighter from "../assets/img/spaceFighter.png";
 import DataImage from './DataImage';

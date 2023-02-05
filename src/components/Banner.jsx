@@ -28,7 +28,7 @@ function Banner() {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""} id="texto-banner">
                 
                 <h1>{`Hi! I'm JC `} </h1>
-                <p>My fullname is Jose Carlos Sáez Fernández. I'm 39 years old. I have studied Web development in Ironhack school. I am a junior full-stack web developer. I can make the website more, more interactive with web animation.
+                <p>My fullname is Jose Carlos Sáez Fernández. I have studied Web development in Ironhack school. I am a junior full-stack web developer. I can make the website more, more interactive with web animation.
              When I first came to web brain, I had no knowledge of programming.
            But now with the help of strong aspirations and teachers, my level of knowledge has greatly increased and I can freely create web site views that are used in our daily lives.
         </p>
