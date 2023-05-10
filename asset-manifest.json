@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/jcsaez-portfolio/static/css/main.57292f35.css",
-    "main.js": "/jcsaez-portfolio/static/js/main.2de8e74e.js",
+    "main.js": "/jcsaez-portfolio/static/js/main.213d7ed6.js",
     "static/js/787.755ab27f.chunk.js": "/jcsaez-portfolio/static/js/787.755ab27f.chunk.js",
     "static/media/color-sharp.png": "/jcsaez-portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/logo.png": "/jcsaez-portfolio/static/media/logo.72dc2a9c32c948cb81f0.png",
     "static/media/tourney ss.png": "/jcsaez-portfolio/static/media/tourney ss.f4711011539e3a8f5c0a.png",
     "static/media/background.jpeg": "/jcsaez-portfolio/static/media/background.169be4ca6a23f1306cc7.jpeg",
     "static/media/spaceFighter.png": "/jcsaez-portfolio/static/media/spaceFighter.6117380faebbfb6152bf.png",
@@ -33,11 +34,11 @@
     "static/media/nav-icon1.svg": "/jcsaez-portfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
     "static/media/email1.svg": "/jcsaez-portfolio/static/media/email1.39fd3db805034f4ecb490806109b0a03.svg",
     "main.57292f35.css.map": "/jcsaez-portfolio/static/css/main.57292f35.css.map",
-    "main.2de8e74e.js.map": "/jcsaez-portfolio/static/js/main.2de8e74e.js.map",
+    "main.213d7ed6.js.map": "/jcsaez-portfolio/static/js/main.213d7ed6.js.map",
     "787.755ab27f.chunk.js.map": "/jcsaez-portfolio/static/js/787.755ab27f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.57292f35.css",
-    "static/js/main.2de8e74e.js"
+    "static/js/main.213d7ed6.js"
   ]
 }
