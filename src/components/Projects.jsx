@@ -5,11 +5,20 @@ import spaceFighter from "../assets/img/spaceFighter.png";
 import DataImage from './DataImage';
 import ImageData from './ImageData';
 import logo from "../assets/img/solologo.png";
+import masQDance from "../assets/img/logo.png"
 
 
 
 function Projects() {
     const listProjects = [
+        {
+        title : "+QDance",
+        description:"QDance is my first professional project. I am developing it completely selflessly for a DJ association in Valencia. The purpose of my web app is for the administrator to be able to manage it completely, without needing to contact me to update the website as many times as they want. Currently, it's under construction, but you can visit the code on my GitHub ",
+        langs: "React, JWT, Nodejs, Express, JavaScript, MongoDB, Axios, html, css",
+        linkGitClient:"https://github.com/Josecarlossaez/masquedance-client",
+        linkGitServer:"https://github.com/Josecarlossaez/masquedance-server",
+        picture: masQDance, 
+        },
         {
             title : "esChallenge",
             description: "esChallenge has been made as a third project in Ironhack. It is a Tourney Generator wich all users can create their own championship. To participate in a tournament you have to create your own team or join one. Each user can creates only one team, but he can joins all teams with permisions. For enter a team you should introduce a correct password wich team creator has passed you. The tournament begins when eight teams are sign up in it, only the Admin is able to start and edit the tourney. Choice a game and organize the battle ",

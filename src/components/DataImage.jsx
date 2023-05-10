@@ -1,6 +1,6 @@
 import React from 'react'
 
-function DataImage({title, description,langs, collaborators, link,picture}) {
+function DataImage({title, description,langs, collaborators, link,linkGitClient, linkGitServer, picture}) {
   return (
     <div>
          <div className='project-image-data' style={{display:"flex"}}>
@@ -9,7 +9,10 @@ function DataImage({title, description,langs, collaborators, link,picture}) {
        <p>{description}</p>
        <p>{langs}</p>
        {collaborators && <h5>Collaborators: {collaborators}</h5>}
-       <a href={link} target="blank">Visite:{title}</a>
+       {link && <a href={link} target="blank">Visite: {title}</a>}
+       {linkGitClient && <a href={linkGitClient} target="blank">GitHub Client</a>}
+       <br />
+       {linkGitServer && <a href={linkGitServer} target="blank">GitHub Server</a>}
         </div>
         <div>
         <a href={link} target="blank" >
