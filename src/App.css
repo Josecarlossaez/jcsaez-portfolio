@@ -479,7 +479,7 @@ width:60%
   }
   .project-image-data div{
     width: 100%;
-    border:2px solid green;
+   
     align-items: center;
   
    
@@ -490,7 +490,7 @@ width:60%
     }
     .project-image-data a{
       margin: auto;
-      border:2px solid blue;
+     
       width: 80%;
       max-height: auto;
       margin:auto;
