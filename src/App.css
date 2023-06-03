@@ -403,15 +403,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .project-image-data{
-  display:"flex";
-  flex-wrap:wrap;
-  justify-content: space-around;
+  border:2px solid yellow;
+  display:flex;
+  /* flex-wrap:wrap; */
+ 
   align-items: center;
   background-color: white;
   color:black;
+  gap:30px;
   
   padding: 3% 15% 3% 15%;
 
+}
+.image-project{
+  width: 60%;
+  max-width: 500px;
+  height: auto;
 }
 .title-projects{
   height: 1%;
@@ -441,9 +448,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color:#433f3f;
   font-family:"Orbitron"
 }
-.project-image-data img{
-max-height: 400px;
-}
+
 
 .project-image-data .text-project2{
 width:60%
@@ -465,13 +470,32 @@ width:60%
    opacity: 0.8;
 
 } 
-@media screen and (max-width:1500px) {
+@media screen and (max-width:1024px) {
   .project-image-data{
-    flex-direction: column;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    
   }
-  .project-image-data p{
+  .project-image-data div{
     width: 100%;
+    border:2px solid green;
+    align-items: center;
+  
+   
+
   }
+  .project-image-data .text-project2{
+    width:90%
+    }
+    .project-image-data a{
+      margin: auto;
+      border:2px solid blue;
+      width: 80%;
+      max-height: auto;
+      margin:auto;
+    }
+ 
   
 }
 
