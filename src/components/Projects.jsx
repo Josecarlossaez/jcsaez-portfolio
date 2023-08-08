@@ -5,12 +5,19 @@ import spaceFighter from "../assets/img/spaceFighter.png";
 import DataImage from './DataImage';
 import ImageData from './ImageData';
 import logo from "../assets/img/solologo.png";
-import masQDance from "../assets/img/logo.png"
+import masQDance from "../assets/img/logo.png";
+import Incarlopsa from "../assets/img/incarlopsa.png"
 
 
 
 function Projects() {
     const listProjects = [
+      {
+        title : "Incarlopsa",
+        description:"In this project, I have had to migrate a portion of an app developed in Visual Basic to Angular. I carried out most of the work using NodeJS, as the views were already prepared. I have also gained knowledge about SQL Database queries, as Incarlopsa utilizes Oracle. I want to express my gratitude to Incarlopsa for the trust they have placed in me to work with them. ",
+        langs: "Angular, JWT, Nodejs, Express, JavaScript, Oracle, Axios, html, css",
+        picture: Incarlopsa, 
+        },
         {
         title : "+QDance",
         description:"QDance is my first professional project. I am developing it completely selflessly for a DJ association in Valencia. The purpose of my web app is for the administrator to be able to manage it completely, without needing to contact me to update the website as many times as they want. Currently, it's under construction, but you can visit the code on my GitHub ",
